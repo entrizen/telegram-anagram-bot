@@ -13,7 +13,14 @@ bot.onText(/\/anagram/, (msg, match) => {
         );
         return;
     }
-
+    
+     if (word.length >= 8) {
+        bot.sendMessage(
+            chatId,
+            "Word length is too great!",
+        );
+        return;
+    }
 
 
     const stringPermutations = str => {
