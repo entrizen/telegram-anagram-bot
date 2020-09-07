@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const bot = new TelegramBot("1350049849:AAFly91P-hNi66Llph1Q0MO3JH-YHb19MGA", { polling: true });
+const bot = new TelegramBot("1273101710:AAF-fLm_4G0pwRlQw5TsG7_Byw5r5fjRjys", { polling: true });
 
 
 bot.onText(/\/anagram/, (msg, match) => {
